@@ -1,1 +1,0 @@
-# shwezin-drone
