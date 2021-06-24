@@ -4,7 +4,7 @@ type: docker
 name: default
 
 workspace:
-  path: /drone/src
+  path: /drone/src/workspace/shwezin
 
 steps:
   - name: lint
