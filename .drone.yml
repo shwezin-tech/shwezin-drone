@@ -3,13 +3,12 @@ kind: pipeline
 type: docker
 name: default
 
-platform:
-  os: linux
-  arch: amd64
-
 steps:
   - name: lint
     image: python:3.7-alpine
     commands:
       - python -m pip install -r requirements.txt
       - flake8
+        
+clone:
+  depth: 50
